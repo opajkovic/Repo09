@@ -4,7 +4,7 @@ function myForLoop1() {
         if(i == 8) {
             evenNumbers = evenNumbers + i;
         } else {
-        evenNumbers = evenNumbers + i + ",";
+        evenNumbers = evenNumbers + i + ", ";
     }}
     return evenNumbers;
 }
@@ -14,7 +14,7 @@ function myForLoop2() {
         if(i == 0) {
             evenInverseNumbers = evenInverseNumbers + i;
         } else {
-        evenInverseNumbers = evenInverseNumbers + i + ",";
+        evenInverseNumbers = evenInverseNumbers + i + ", ";
     }}
     return evenInverseNumbers;
 }
