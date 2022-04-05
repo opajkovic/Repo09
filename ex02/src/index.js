@@ -6,4 +6,6 @@ function myFunction(myParameter) {
 }
 console.log(myFunction(true));
 console.log(myFunction(false));
+myFunction(true);
+myFunction(false);
 module.exports = myFunction;
