@@ -1,16 +1,17 @@
 function switchCase(letter) {
+    var animals;
     switch(letter) {
         case "a":
-            return "antelope";
+            return animals = "antelope";
             break;
         case "b":
-            return "bird";
+            return  animals = "bird";
             break;
         case "c":
-            return "cat";
+            return animals = "cat";
             break;
         default:
-            return "stuff";
+            return animals = "stuff";
             break;
     }
 }
