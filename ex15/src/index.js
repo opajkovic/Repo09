@@ -2,18 +2,19 @@ function switchCase(letter) {
     var animals;
     switch(letter) {
         case "a":
-            return animals = "antelope";
+            animals = "antelope";
             break;
         case "b":
-            return  animals = "bird";
+            animals = "bird";
             break;
         case "c":
-            return animals = "cat";
+            animals = "cat";
             break;
         default:
-            return animals = "stuff";
+            animals = "stuff";
             break;
     }
+    return animals;
 }
 console.log(switchCase("a"));
 console.log(switchCase("b"));
